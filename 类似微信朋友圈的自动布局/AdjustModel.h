@@ -10,4 +10,7 @@
 
 @interface AdjustModel : NSObject
 
+@property (nonatomic,copy) NSString *content;    //内容
+@property (nonatomic,copy) NSString *urlString;  //如果有多个图片，逗号相隔
+
 @end

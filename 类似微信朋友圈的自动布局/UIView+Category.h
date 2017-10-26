@@ -10,4 +10,10 @@
 
 @interface UIView (Category)
 
+@property (nonatomic) CGFloat width; 
+@property (nonatomic) CGFloat height;
+@property (nonatomic) CGSize  size;
+@property (nonatomic) CGFloat top;
+@property (nonatomic) CGFloat left;
+
 @end
